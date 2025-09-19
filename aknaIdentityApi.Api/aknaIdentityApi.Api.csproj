@@ -10,11 +10,13 @@
     <PackageReference Include="Octokit" Version="14.0.0" />
     <PackageReference Include="Refit" Version="8.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.6" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.6" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\akna.Domain\aknaIdentity_api.Domain.csproj" />
-    <ProjectReference Include="..\akna_api.Infrastructure\aknaIdentity_api.Infrastructure.csproj" />
+    <ProjectReference Include="..\aknaIdentityApi.Domain\aknaIdentityApi.Domain.csproj" />
+    <ProjectReference Include="..\aknaIdentityApi.Infrastructure\aknaIdentityApi.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

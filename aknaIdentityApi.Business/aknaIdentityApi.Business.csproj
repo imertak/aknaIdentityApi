@@ -13,8 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\akna.Domain\aknaIdentity_api.Domain.csproj" />
-    <ProjectReference Include="..\akna_api.Infrastructure\aknaIdentity_api.Infrastructure.csproj" />
+    <ProjectReference Include="..\aknaIdentityApi.Domain\aknaIdentityApi.Domain.csproj" />
   </ItemGroup>
 
 </Project>
